@@ -36,7 +36,6 @@ int main(int argc, const char * argv[]) {
     
     for (int i = 1; i<=10; i++) {
         std::cout << i*100 <<"\t\t" <<std::fixed<<std::setprecision(2) << i*price*0.10 << std::endl;
-        
     }
     
     return 0;
